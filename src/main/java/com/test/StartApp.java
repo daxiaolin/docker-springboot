@@ -15,7 +15,7 @@ public class StartApp {
     public static void main(String[] args) {
         SpringApplication.run(StartApp.class, args);
     }
-    
+
     @RequestMapping("/")
     public String index() {
         return "hello spring boot";
